@@ -30,9 +30,9 @@ public class Input_Entry {
             }
         }
 
-        String[] states = input_states.substring(0, input_states.length() - 1).split(",");
-        String[] letters = input_letters.substring(0, input_letters.length() - 1).split(",");
-        String[] final_states = input_final_states.substring(0, input_final_states.length() - 1).split(",");
+        String[] states = input_states.substring(1, input_states.length() - 1).split(",");
+        String[] letters = input_letters.substring(1, input_letters.length() - 1).split(",");
+        String[] final_states = input_final_states.substring(1, input_final_states.length() - 1).split(",");
 
         NFA nfa = new NFA(rules, states, letters, final_states);
         DFA dfa = new DFA(rules, states, letters, final_states);
