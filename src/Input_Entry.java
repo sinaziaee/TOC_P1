@@ -3,16 +3,32 @@ import java.util.Scanner;
 public class Input_Entry {
 
     public static void main(String[] args) {
+        System.out.println("Copy the initials");
+
         Scanner scanner = new Scanner(System.in);
         String input_states = scanner.nextLine();
         String input_letters = scanner.nextLine();
-        int num_of_rules = scanner.nextInt();
+        int num_of_rules = Integer.parseInt(scanner.nextLine());
         String[][] rules = new String[num_of_rules][3];
+        String[] temp = new String[num_of_rules];
+
         for (int i = 0; i < num_of_rules; i++) {
-            String line = scanner.nextLine();
-            rules[i] = line.split(",");
+            temp[i] = scanner.nextLine();
         }
+
         String input_final_states = scanner.nextLine();
+
+        for (int i = 0; i < num_of_rules; i++) {
+            String[] tmp = temp[i].split(",");
+            if (tmp.length == 2){
+                // if the letter is landa than i put l in it
+                String[] test = {tmp[0], tmp[1], "l"};
+                rules[i] = test;
+            }
+            else{
+                rules[i] = tmp;
+            }
+        }
 
         String[] states = input_states.substring(0, input_states.length() - 1).split(",");
         String[] letters = input_letters.substring(0, input_letters.length() - 1).split(",");
@@ -21,9 +37,8 @@ public class Input_Entry {
         NFA nfa = new NFA(rules, states, letters, final_states);
         DFA dfa = new DFA(rules, states, letters, final_states);
 
-        System.out.println("What to do next ? ");
-
         while (true) {
+            System.out.println("What to do next ? ");
             switch (scanner.nextLine()) {
                 case "1":
                 case "isAcceptedByNFA":

@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2cc669cd-4f21-4c21-819a-f0c066a422de" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/DFA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DFA.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Input_Entry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Input_Entry.java" afterDir="false" />
@@ -33,6 +34,28 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
   </component>
+  <component name="RunManager" selected="Application.Input_Entry">
+    <configuration name="Input_Entry" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Input_Entry" />
+      <module name="TOC_P1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test" />
+      <module name="TOC_P1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Input_Entry" />
+        <item itemvalue="Application.test" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -51,5 +74,48 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="757" y="206" width="462" height="693" key="#com.intellij.ide.util.MemberChooser/67.27.1853.1053@67.27.1853.1053" timestamp="1587548317744" />
+    <state width="1797" height="329" key="GridCell.Tab.0.bottom" timestamp="1587552517687">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1797" height="329" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1587552517687" />
+    <state width="1797" height="329" key="GridCell.Tab.0.center" timestamp="1587552517686">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1797" height="329" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1587552517686" />
+    <state width="1797" height="329" key="GridCell.Tab.0.left" timestamp="1587552517686">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1797" height="329" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1587552517686" />
+    <state width="1797" height="329" key="GridCell.Tab.0.right" timestamp="1587552517687">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1797" height="329" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1587552517687" />
+    <state width="1797" height="329" key="GridCell.Tab.1.bottom" timestamp="1587552517393">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1797" height="329" key="GridCell.Tab.1.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1587552517393" />
+    <state width="1797" height="329" key="GridCell.Tab.1.center" timestamp="1587552517392">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1797" height="329" key="GridCell.Tab.1.center/67.27.1853.1053@67.27.1853.1053" timestamp="1587552517392" />
+    <state width="1797" height="329" key="GridCell.Tab.1.left" timestamp="1587552517392">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1797" height="329" key="GridCell.Tab.1.left/67.27.1853.1053@67.27.1853.1053" timestamp="1587552517392" />
+    <state width="1797" height="329" key="GridCell.Tab.1.right" timestamp="1587552517393">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1797" height="329" key="GridCell.Tab.1.right/67.27.1853.1053@67.27.1853.1053" timestamp="1587552517393" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/NFA.java</url>
+          <line>53</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

@@ -13,6 +13,7 @@ public class DFA {
     }
 
     public boolean isAcceptedByDFA(String input){
+
         return false;
     }
 
