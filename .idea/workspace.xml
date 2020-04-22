@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2cc669cd-4f21-4c21-819a-f0c066a422de" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DFA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/NFA.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DFA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DFA.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Input_Entry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Input_Entry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NFA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NFA.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,5 +45,11 @@
       <updated>1587535469792</updated>
     </task>
     <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="757" y="206" width="462" height="693" key="#com.intellij.ide.util.MemberChooser" timestamp="1587548317744">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="757" y="206" width="462" height="693" key="#com.intellij.ide.util.MemberChooser/67.27.1853.1053@67.27.1853.1053" timestamp="1587548317744" />
   </component>
 </project>

@@ -18,8 +18,8 @@ public class Input_Entry {
         String[] letters = input_letters.substring(0, input_letters.length() - 1).split(",");
         String[] final_states = input_final_states.substring(0, input_final_states.length() - 1).split(",");
 
-        NFA nfa = new NFA();
-        DFA dfa = new DFA();
+        NFA nfa = new NFA(rules, states, letters, final_states);
+        DFA dfa = new DFA(rules, states, letters, final_states);
 
         System.out.println("What to do next ? ");
 
