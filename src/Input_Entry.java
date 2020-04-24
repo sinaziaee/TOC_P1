@@ -36,8 +36,18 @@ public class Input_Entry {
 
         String[] states = input_states.substring(1, input_states.length() - 1).split(",");
         String[] letters = input_letters.substring(1, input_letters.length() - 1).split(",");
-        String[] final_states = input_final_states.substring(1, input_final_states.length() - 1).split(",");
-        ArrayList<String> finals = new ArrayList<>(Arrays.asList(final_states));
+        input_final_states = input_final_states.substring(1, input_final_states.length() - 1);
+        ArrayList<String> finals = new ArrayList<>();
+
+        if (input_final_states.contains(",")){
+            String[] final_states = input_final_states.substring(1, input_final_states.length() - 1).split(",");
+            for (String each : final_states){
+                finals.add(each);
+            }
+        }
+        else{
+            finals.add(input_final_states);
+        }
 
         NFA nfa = new NFA(states, letters, list, finals);
         DFA dfa = new DFA(states, letters, list, finals);
@@ -93,12 +103,10 @@ public class Input_Entry {
                     break;
                 //*****************************************************************//
                 default:
-                    System.out.println("Please enter a correct command  \n");
+                    System.out.println("Please enter a correct command\n");
                     break;
             }
             System.out.println("What to do next ? ");
         }
-
     }
-
 }
