@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2cc669cd-4f21-4c21-819a-f0c066a422de" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TOC_P1/DFA.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TOC_P1/DFA.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/TOC_P1/Input_Entry.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TOC_P1/Input_Entry.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/TOC_P1/NFA.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TOC_P1/NFA.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TOC_P1/test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DFA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DFA.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Input_Entry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Input_Entry.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/NFA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NFA.java" afterDir="false" />
     </list>
@@ -75,22 +77,22 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="757" y="206" width="462" height="693" key="#com.intellij.ide.util.MemberChooser/67.27.1853.1053@67.27.1853.1053" timestamp="1587588106566" />
-    <state width="1797" height="826" key="GridCell.Tab.0.bottom" timestamp="1587731163089">
+    <state width="1797" height="214" key="GridCell.Tab.0.bottom" timestamp="1587746606332">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1797" height="826" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1587731163089" />
-    <state width="1797" height="826" key="GridCell.Tab.0.center" timestamp="1587731163087">
+    <state width="1797" height="214" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1587746606332" />
+    <state width="1797" height="214" key="GridCell.Tab.0.center" timestamp="1587746606331">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1797" height="826" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1587731163087" />
-    <state width="1797" height="826" key="GridCell.Tab.0.left" timestamp="1587731163087">
+    <state width="1797" height="214" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1587746606331" />
+    <state width="1797" height="214" key="GridCell.Tab.0.left" timestamp="1587746606331">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1797" height="826" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1587731163087" />
-    <state width="1797" height="826" key="GridCell.Tab.0.right" timestamp="1587731163088">
+    <state width="1797" height="214" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1587746606331" />
+    <state width="1797" height="214" key="GridCell.Tab.0.right" timestamp="1587746606332">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1797" height="826" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1587731163088" />
+    <state width="1797" height="214" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1587746606332" />
     <state width="1797" height="209" key="GridCell.Tab.1.bottom" timestamp="1587731081868">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
@@ -125,7 +127,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/NFA.java</url>
-          <line>125</line>
+          <line>178</line>
           <option name="timeStamp" value="32" />
         </line-breakpoint>
       </breakpoints>

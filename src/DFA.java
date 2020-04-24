@@ -2,36 +2,34 @@ import java.util.ArrayList;
 
 public class DFA {
 
-    String[] states;
+    ArrayList<String> states;
     String[] letters;
     ArrayList<String> finals;
     ArrayList<String[]> list;
+    String initialState;
 
     int size;
 
-    public DFA(String[] states, String[] letters, ArrayList<String[]> list, ArrayList<String> finals) {
+    public DFA (ArrayList<String> states, String[] letters, ArrayList<String[]> list, ArrayList<String> finals, String initialState) {
         this.states = states;
         this.letters = letters;
         this.list = list;
         this.finals = finals;
         this.size = list.size();
+        this.initialState = initialState;
     }
 
     public boolean isAcceptedByDFA(String input){
         String[] inputs = input.split("");
-        String last = states[0];
+        String last = initialState;
         for(String each:inputs){
             String next_state = path(last, each);
             if (next_state.equals("-1")){
                 return false;
             }
             else{
-                if (!next_state.contains(",")){
-                    last = next_state;
-                }
-                else{
-                    // more that two states with same letter so do more code
-                }
+                last = next_state;
+                System.out.println(last);
             }
         }
         // now its time to check if the last state is final state or not

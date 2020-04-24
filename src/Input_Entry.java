@@ -40,7 +40,7 @@ public class Input_Entry {
         ArrayList<String> finals = new ArrayList<>();
 
         if (input_final_states.contains(",")){
-            String[] final_states = input_final_states.substring(1, input_final_states.length() - 1).split(",");
+            String[] final_states = input_final_states.split(",");
             for (String each : final_states){
                 finals.add(each);
             }
@@ -50,7 +50,8 @@ public class Input_Entry {
         }
 
         NFA nfa = new NFA(states, letters, list, finals);
-        DFA dfa = new DFA(states, letters, list, finals);
+
+        DFA dfa = nfa.dFAConvertedFromNfa();
 
         System.out.println("What to do next ? ");
 
@@ -72,6 +73,7 @@ public class Input_Entry {
                 case "3":
                 case "createEquivalentDFA":
                     nfa.createEquivalentDFA();
+                    System.out.println("NFA converted to DFA");
                     break;
                 //*****************************************************************//
                 case "4":
